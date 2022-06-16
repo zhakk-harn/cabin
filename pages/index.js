@@ -8,17 +8,16 @@ export default function Index() {
           added as time goes on.
         </p>
         <p>
-          Anyways, I'm building a soundscape manager for (virtual) tabletop role
-          playing games. I aim to give the full control to game masters for as
-          little effort as possible, no need for people in a control room.
+          Anyways, I'm building a soundscape manager for (virtual/in person)
+          tabletop role playing games. I aim to give the full control to game
+          masters for as little effort as possible, no need for a control room
+          backstage.
         </p>
       </main>
       <style jsx>{`
         main {
           max-width: 65ch;
           margin: 0 auto;
-          background-color: black;
-          color: white;
           border-radius: 5px;
           padding: 2ch;
         }
@@ -28,10 +27,6 @@ export default function Index() {
             width: 100%;
             max-width: unset;
           }
-        }
-
-        h1 {
-          font-family: T-seriesC;
         }
 
         p {
@@ -46,12 +41,6 @@ export default function Index() {
         }
 
         body {
-          background-image: radial-gradient(
-            circle at 50% 50%,
-            #e08918 0%,
-            #bf5b1d 100%
-          );
-
           display: flex;
           align-items: center;
           justify-content: center;
